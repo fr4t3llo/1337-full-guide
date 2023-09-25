@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skasmi <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: skasmi <skasmi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/07 18:45:20 by skasmi            #+#    #+#             */
-/*   Updated: 2021/08/08 16:08:44 by skasmi           ###   ########.fr       */
+/*   Updated: 2023/09/25 07:21:09 by skasmi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
+
 void	ft_print(char x, char y, char z)
 {
 	write(1, &x, 1);

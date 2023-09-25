@@ -3,13 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skasmi <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: skasmi <skasmi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/08 11:35:34 by skasmi            #+#    #+#             */
-/*   Updated: 2021/08/08 12:03:43 by skasmi           ###   ########.fr       */
+/*   Updated: 2023/09/25 07:21:18 by skasmi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<unistd.h>
+
+#include <unistd.h>
+
 void	ft_print(char c)
 {
 	write(1, &c, 1);

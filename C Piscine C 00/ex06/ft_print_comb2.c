@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skasmi <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: skasmi <skasmi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/08 10:03:31 by skasmi            #+#    #+#             */
-/*   Updated: 2021/08/08 10:41:19 by skasmi           ###   ########.fr       */
+/*   Updated: 2023/09/25 07:21:15 by skasmi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
 
 void	ft_print(char n)
 {
@@ -35,5 +35,5 @@ void	ft_print_comb2(void)
 			write(1, ", ", 2);
 		if (++y > 99)
 			y = ++x + 1;
-	}	
+	}
 }

@@ -3,13 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skasmi <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: skasmi <skasmi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/07 15:24:32 by skasmi            #+#    #+#             */
-/*   Updated: 2021/08/08 15:33:37 by skasmi           ###   ########.fr       */
+/*   Updated: 2023/09/25 07:20:49 by skasmi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<unistd.h>
+
+#include <unistd.h>
+
 void	ft_print_alphabet(void)
 {
 	write (1, "abcdefghijklmnopqrstuvwxyz", 26);
