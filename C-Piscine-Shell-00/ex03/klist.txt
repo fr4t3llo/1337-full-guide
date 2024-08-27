@@ -1,0 +1,6 @@
+Credentials cache: API:E8E3B8B0-F296-406C-8E9D-6FCC693E0C75
+        Principal: skasmi@1337.MA
+
+  Issued                Expires               Principal
+Aug  2 17:20:16 2021  Aug  3 03:20:16 2021  krbtgt/1337.MA@1337.MA
+Aug  2 17:20:19 2021  Aug  3 03:20:16 2021  HTTP/iscsi.1337.ma@1337.MA
